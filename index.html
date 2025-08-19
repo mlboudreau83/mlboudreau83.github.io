@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Your Name | Software Engineer</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet">
+  <style>
+    body {
+      font-family: 'Inter', sans-serif;
+      margin: 0;
+      line-height: 1.6;
+      color: #333;
+      background: #f9f9f9;
+    }
+    header {
+      background: #222;
+      color: #fff;
+      padding: 3rem 1rem;
+      text-align: center;
+    }
+    header h1 {
+      margin: 0;
+      font-size: 2.5rem;
+    }
+    header p {
+      margin-top: 0.5rem;
+      font-size: 1.2rem;
+      color: #aaa;
+    }
+    section {
+      max-width: 800px;
+      margin: 3rem auto;
+      padding: 0 1rem;
+    }
+    h2 {
+      border-bottom: 2px solid #eee;
+      padding-bottom: 0.5rem;
+      margin-bottom: 1rem;
+    }
+    .project {
+      margin-bottom: 1.5rem;
+    }
+    .project a {
+      color: #0070f3;
+      text-decoration: none;
+    }
+    .contact a {
+      margin-right: 1rem;
+      color: #0070f3;
+      text-decoration: none;
+    }
+    footer {
+      text-align: center;
+      padding: 2rem 1rem;
+      color: #777;
+      font-size: 0.9rem;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Header -->
+  <header>
+    <h1>Your Name</h1>
+    <p>Software Engineer • Backend & Full-Stack Development</p>
+  </header>
+
+  <!-- About -->
+  <section>
+    <h2>About Me</h2>
+    <p>
+      I’m a software engineer who loves building scalable applications and solving complex problems.
+      Skilled in Laravel, PHP, JavaScript, and cloud services. Passionate about clean code and
+      delivering solutions that make a real impact.
+    </p>
+  </section>
+
+  <!-- Projects -->
+  <section>
+    <h2>Projects</h2>
+
+    <div class="project">
+      <h3><a href="https://github.com/yourusername/project1" target="_blank">Project One</a></h3>
+      <p>A web app that helps users track their daily habits. Built with Laravel, Vue.js, and MySQL.</p>
+    </div>
+
+    <div class="project">
+      <h3><a href="https://github.com/yourusername/project2" target="_blank">Project Two</a></h3>
+      <p>Real-time chat platform using Node.js, Socket.io, and Redis. Deployed on AWS.</p>
+    </div>
+
+    <div class="project">
+      <h3><a href="https://github.com/yourusername/project3" target="_blank">Project Three</a></h3>
+      <p>API service for analyzing medical datasets with Python and Flask. Focus on performance and security.</p>
+    </div>
+  </section>
+
+  <!-- Resume -->
+  <section>
+    <h2>Résumé</h2>
+    <p>
+      <a href="assets/resume.pdf" target="_blank">Download my résumé (PDF)</a>
+    </p>
+  </section>
+
+  <!-- Contact -->
+  <section>
+    <h2>Contact</h2>
+    <div class="contact">
+      <a href="mailto:your.email@example.com">Email</a>
+      <a href="https://github.com/yourusername" target="_blank">GitHub</a>
+      <a href="https://linkedin.com/in/yourusername" target="_blank">LinkedIn</a>
+    </div>
+  </section>
+
+  <footer>
+    © <span id="year"></span> Your Name. All rights reserved.
+  </footer>
+
+  <script>
+    document.getElementById("year").textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
